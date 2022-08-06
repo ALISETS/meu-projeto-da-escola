@@ -38,3 +38,8 @@ footer {
     width: 100vw;
     height: 85vh;
 }
+  
+.sobre > .img-header {
+    width: 25rem;
+    height: 18.75rem;
+}
