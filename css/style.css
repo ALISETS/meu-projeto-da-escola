@@ -45,3 +45,34 @@ footer {
     width: 25rem;
     height: 18.75rem;
 }
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 85vh;
+}
+
+.contato > .conteudo,
+.contato > .conteudo > .blocos > .campos {
+    display: flex;
+    flex-direction: row;
+}
+
+.contato > .conteudo {
+    justify-content: center;
+    align-items: center;
+}
+
+.contato > .conteudo > .blocos {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 25rem;
+}
+
+.contato > .conteudo > .blocos > .campos,
+.contato > .conteudo > .blocos > .campos > label {
+    padding: 1rem;
+}
