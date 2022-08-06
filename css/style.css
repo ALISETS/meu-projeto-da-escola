@@ -76,3 +76,21 @@ footer {
 .contato > .conteudo > .blocos > .campos > label {
     padding: 1rem;
 }
+
+.home {
+    display: flex;
+    width: 100vw;
+    height: 85vh;
+}
+
+.home > .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.home > .header > img {
+    width: 90vw;
+    height: 23rem;
+}
